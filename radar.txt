@@ -24,7 +24,7 @@ Serial.print(“,”);
 Serial.print(distance);
 Serial.print(“.”);
 }
-// Repeats the previous lines from 165 to 15 degrees
+// Repeats the previous lines from 180 to 0 degrees
 for(int i=180;i>0;i–){
 myServo.write(i);
 delay(30);
